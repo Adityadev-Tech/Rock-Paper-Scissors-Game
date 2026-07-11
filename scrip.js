@@ -5,9 +5,16 @@ let GivenChoices = document.querySelectorAll("#images-container img");
 let showfinalMsg = document.querySelector("#finalmsg") ;
 let Uscore = document.querySelector("#Unum") ;
 let Cscore = document.querySelector("#Cnum") ;
+let btn = document.querySelector("button") ;
 
 
-
+// reset option 
+btn.addEventListener("click"  , () =>{
+        UserScore= 0 ;
+        CompScore= 0; 
+        Uscore.innerText =0 ;
+        Cscore.innerText = 0 ;
+});
 
 
 // generating a random computer choice
