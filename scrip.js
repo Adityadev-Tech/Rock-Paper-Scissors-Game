@@ -14,7 +14,9 @@ btn.addEventListener("click"  , () =>{
         CompScore= 0; 
         Uscore.innerText =0 ;
         Cscore.innerText = 0 ;
-        showfinalMsg.innerText = "Play your move";
+        showfinalMsg.innerText = "Play your move" ;
+        showfinalMsg.style.background = "#E727F5" ; 
+
 });
 
 
