@@ -1,1 +1,71 @@
 
+* {
+    margin: 0;
+    padding : 0 ;
+    text-align: center;
+
+}
+/* styling the navbar */
+
+#top{
+    background-color: rgb(255, 170, 0);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 5px solid black;
+}
+
+/* styling the images */
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 8px solid rgb(30, 138, 62);
+}
+#images-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;   
+}
+/* making the css responsive */
+img:hover {
+    opacity: 0.5;
+    border: 8px solid red;
+}
+
+/* styling the messange section */
+
+#msg {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.score {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  k;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize ;
+    font-weight: bold;
+}
+#Unum , #Cnum{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#UST , #CST {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+#resultmsg {
+    /* display: inline; */
+}
+#finalmsg {
+
+    display: inline;
+    padding: 10px;
+    border: 4px solid black;
+    background-color: rgb(255, 0, 153);
+    font-family: fantasy;
+    word-spacing: 2px;
+    font-size: 2rem;
+}

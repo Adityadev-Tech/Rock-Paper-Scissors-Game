@@ -10,39 +10,39 @@
 
 <body>
     <!-- this is the topmost section -->
-    <div>
+    <div id="top">
         <nav>
             <h1>Rock Paper Scissors</h1>
         </nav>
     </div>
     <!-- this is the middle section where all the images are present  -->
-    <div id="images">
-        <div class="pricture-structure">
+    <div id="images-container">
+        <div class="picture">
             <img src="images/rock.png" alt="Rock">
         </div>
-        <div class="pricture">
+        <div class="picture">
 
             <img src="images/paper.png" alt="paper">
         </div>
-        <div class="pricture">
+        <div class="picture">
             <img src="images/scissor.png" alt="Scissors">
         </div>
     </div>
     <!-- this is the section for displaying the game score -->
     <div id="msg">
-    <div id="userMsg">
-        <p>0</p>
-        <p>User's score</p>
+    <div class="score" id="userMsg">
+        <p class="user" id="Unum">0</p>
+        <p class="user" id="UST">User's score</p>
      </div>
 
-     <div is="compMSG">
-        <p>0</p>
-        <p>User's score</p>
+     <div class="score" id="compMSG">
+        <p class="computer" id="Cnum">0</p>
+        <p class="computer" id="CST">Computer's score</p>
      </div>
     </div>
 
     <div id="resultmsg">
-        <p>Play Your move</p>
+        <p id="finalmsg">Play Your move</p>
     </div>
 
     <script src="scrip.js"></script>
